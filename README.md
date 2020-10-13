@@ -1,0 +1,2 @@
+# Data-Structures-and-Algorithms-TDDE22
+Course covering implementation, usage, time complexity and memory allocation of various data structures and algorithms including: Queue, stack, array, arraylist, maps, trees, hashmaps, binary search trees, AVL trees, Splay trees, priority queu, min and max heaps, mergesort, quicksort, graphs, bredth first search, depth first search, shortest spanning tree, dijkstra's, a star 
