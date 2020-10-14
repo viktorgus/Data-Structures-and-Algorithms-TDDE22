@@ -1,0 +1,9 @@
+Vår lösning kräver endast tidskomplexitet O(log n) vid varje insättning för att behålla heapstruktureni PQ. I den gamla lösningen behövde 
+hela PQ undersökas för att efter en delete för att upprätthålla heapstrukturen och detta med tidskomplexiteten O(n). Alltså gör vi en 
+operation med tidskomplexiteten O(log n) varje gång vi gör en insert istället för att göra en operation med tidskomplexiteten O(n) varje gång
+vi deletar min. 
+
+När vi kör Simulatorn bör vi över tid ha ungefär lika många inserts som deletes och därför presterar vår lösing bättre. 
+
+Skulle vi ha många fler inserts än deletes skulle den gamla lösning kunna prestera bättre. Om man gör insert x gånger resulterar det att 
+alla inserts i vårt fall får tidskoplexitet x*O(logn). Därmed, ifall x*O(logn)>O(n) så är toss billigare då x<O(n).

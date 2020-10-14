@@ -1,0 +1,8 @@
+#! /bin/sh
+LC_ALL=C
+export LC_ALL
+java Collisions | tee hash.dat
+gnuplot /home/TDDC91/bin/hash.gnupl
+rm hash.dat
+ps2pdfwr hash.ps collisions.pdf
+rm hash.ps
